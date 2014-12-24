@@ -1,4 +1,4 @@
-How is TREZOR different from ...
+How is BWallet different from ...
 ================================
 
 
@@ -23,7 +23,7 @@ When you store your Bitcoins in a traditional web wallet you put your Bitcoins a
 
  - Your computer or cell phone is stolen while you are logged in and thieves then steal your coins
 
-If you keep your Bitcoins in a TREZOR, none of these things can happen.
+If you keep your Bitcoins in a BWallet, none of these things can happen.
 
 a desktop Bitcoin client?
 -------------------------
@@ -40,14 +40,14 @@ a USB flash drive?
 
 A USB flash drive is just storage for private keys. It means that when you want to make a transaction, you must attach your drive to the computer and let your bitcoin software read the keys from the device. At this point your private keys are accessible to viruses and malware, just as to any other software on your desktop computer.
 
-On the contrary, TREZOR is a single-purpose computer, which stores your private keys and actively signs transactions without sending your private keys to the computer. When you want to make a bitcoin transaction, your bitcoin software just sends a transaction template to the TREZOR device and asks for a digital signature. TREZOR shows the requested amount and target address on its display. You will then confirm the transaction by pressing the hardware button. TREZOR will sign transaction internally and send the digital signature back to the computer, without leaking your private keys. Thanks to this, you can use TREZOR even on a vulnerable or hacked computer.
+On the contrary, BWallet is a single-purpose computer, which stores your private keys and actively signs transactions without sending your private keys to the computer. When you want to make a bitcoin transaction, your bitcoin software just sends a transaction template to the BWallet device and asks for a digital signature. BWallet shows the requested amount and target address on its display. You will then confirm the transaction by pressing the hardware button. BWallet will sign transaction internally and send the digital signature back to the computer, without leaking your private keys. Thanks to this, you can use BWallet even on a vulnerable or hacked computer.
 
 an encrypted wallet?
 --------------------
 
 Even using a strong password doesn't prevent viruses to silently sit on your computer and wait until you want to transfer coins out of your wallet. This is a vulnerable point, because a virus has access to the wallet file and can read your passphrase from your keyboard.
 
-On the contrary, TREZOR never sends private keys to the computer, because when you want to send some coins out of your wallet, TREZOR asks bitcoin software for payment details, signs the transaction internally and then sends back just a digital signature of the transaction. There's no point where malware on your computer could access the private keys or send away your coins without your permission.
+On the contrary, BWallet never sends private keys to the computer, because when you want to send some coins out of your wallet, BWallet asks bitcoin software for payment details, signs the transaction internally and then sends back just a digital signature of the transaction. There's no point where malware on your computer could access the private keys or send away your coins without your permission.
 
 Yubikey?
 --------
