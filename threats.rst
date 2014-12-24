@@ -24,7 +24,7 @@ The number of PIN entry failures is stored in the BWallet's memory.  This means 
 Reflashing the BWallet with evil firmware
 ----------------------------------------
 
-Official BWallet firmware is signed by the SatoshiLabs master key.  Installing unofficial firmware on the BWallet is possible, but doing so will wipe the device storage and BWallet will show a warning every time it starts.  Reprogramming the bootloader is impossible, because all BWallets ship with their secure programming fuse blown.
+Official BWallet firmware is signed by the Bidixing master key.  Installing unofficial firmware on the BWallet is possible, but doing so will wipe the device storage and BWallet will show a warning every time it starts.  Reprogramming the bootloader is impossible, because all BWallets ship with their secure programming fuse blown.
 
 Inspect the BWallets memory with an electron microscope
 ------------------------------------------------------
@@ -40,14 +40,14 @@ If you are concerned about such an attack, it is a good idea to sign the back of
 
 The BWallet's chassis is sealed using ultrasound. Opening the BWallet without destroying the case is nearly impossible.
 
-What happens if the SatoshiLabs servers are hacked and the firmware signing key is stolen?
+What happens if the Bidixing servers are hacked and the firmware signing key is stolen?
 ==========================================================================================
 
-First off, this won't happen ;).  The SatoshiLabs master key is kept very safe.  However, you don't need to rely on the SatoshiLabs signature.  You can `verify the build yourself <https://github.com/trezor/trezor-mcu/blob/master/README.rst>`_.  Our hope is that a few trusted BWallet users will make a habit of verifying firmware checksums.  If you are concerned about this, we suggest making a habit of checking `our blog <http://satoshilabs.com/news>`_ or social news channels such as `reddit <http://www.reddit.com/r/BWallet>`_ before applying any updates.  If there ever was a problem with the firmware not matching the source code, you can be sure someone will have written about it.
+First off, this won't happen ;).  The Bidixing master key is kept very safe.  However, you don't need to rely on the Bidixing signature.  You can `verify the build yourself <https://github.com/trezor/trezor-mcu/blob/master/README.rst>`_.  Our hope is that a few trusted BWallet users will make a habit of verifying firmware checksums.  If you are concerned about this, we suggest making a habit of checking `our blog <http://satoshilabs.com/news>`_ or social news channels such as `reddit <http://www.reddit.com/r/BWallet>`_ before applying any updates.  If there ever was a problem with the firmware not matching the source code, you can be sure someone will have written about it.
 
 You don't need to worry about the firmware being updated by a computer virus.  Your BWallet will ask you to manually confirm the update before anything is written to the BWallet's memory.
 
-What happens if the SatoshiLabs shuts down?
+What happens if the Bidixing shuts down?
 ===========================================
 
 There are no such plans because we love bitcoin, but even if we had to close down, there's nothing to worry about. 
