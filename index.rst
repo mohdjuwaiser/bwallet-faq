@@ -1,4 +1,4 @@
-TREZOR Frequently Asked Questions
+BWallet Frequently Asked Questions
 =================================
 
 Contents
