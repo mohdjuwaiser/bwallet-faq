@@ -43,9 +43,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-module_name = 'trezor-faq'
-project = u'TREZOR Frequently Asked Questions'
-author = u'SatoshiLabs'
+module_name = 'bwallet-faq'
+project = u'BWallet Frequently Asked Questions'
+author = u'Bidixing'
 copyright = u'2014, ' + author
 
 # The version info for the project you're documenting, acts as replacement for
@@ -178,7 +178,7 @@ html_theme_path = ["./_themes",]
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'TrezorFaqDoc'
+htmlhelp_basename = 'BWalletFaqDoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
