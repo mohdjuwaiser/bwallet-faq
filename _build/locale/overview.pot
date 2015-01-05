@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014, Bidixing
+# This file is distributed under the same license as the BWallet Frequently Asked Questions package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: BWallet Frequently Asked Questions 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-25 20:26-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../overview.rst:2
+# c67b8254adab4fb98743cf75458085dd
+msgid "Overview"
+msgstr ""
+
+#: ../../overview.rst:5
+# f19859b3a81d494abb5e0f55f447fe67
+msgid "What is BWallet?"
+msgstr ""
+
+#: ../../overview.rst:7
+# d25e6df0a3704a8080138b7c8a10428c
+msgid "BWallet is a single purpose device which allows you to make secure Bitcoin transactions. With BWallet, transactions are completely safe even when initiated on a compromised or vulnerable computer.  Because the use of BWallet is very easy and intuitive we believe it will help Bitcoin adoption among common people."
+msgstr ""
+
+#: ../../overview.rst:12
+# b6df1ead5dc84efc82e2f22561a39745
+msgid "How does BWallet work?"
+msgstr ""
+
+#: ../../overview.rst:14
+# daea19f5a7c64510b0aad9201f9c1d47
+msgid "The Bitcoin protocol works by sending signed notes of payment across the Internet.  These messages(which are referred to as Transactions) are signed using a special algorithm.  In order to sign a Bitcoin transaction you need to have a special key or password.  BWallet holds that key.  Since BWallet's job is to help you securely sign Transaction messages, you can think of you BWallet as a modern day stamp."
+msgstr ""
+
+#: ../../overview.rst:18
+# 2941456474334cd8ae122c3a9eeb223c
+msgid "(image credit  `Petr Kvashin <http://www.publicdomainpictures.net/view-image.php?image=038943>`_)"
+msgstr ""
+
+#: ../../overview.rst:20
+# cead93ce4c9948cb935962b390316363
+msgid "BWallet is better than an ordinary mechanical stamping mechanism, however.  Each BWallet has a PIN code. If your BWallet gets stolen, thieves cannot misuse it to steal your money.  Due to BWallet's clever design, even if the computer with which you use your BWallet is hacked, the hackers will never know your PIN."
+msgstr ""
+
+#: ../../overview.rst:22
+# 83f17a536ea64686b39c5782d050dded
+msgid "In contrast to the various pieces of software and web services that allow you to store your Bitcoins BWallet is secure.  Software and web based solutions keep your Bitcoin signing keys either on your computer, or worse, on the Internet!  When you use such a service, hackers can easily steal your Bitcoins by hacking your computers or hacking the servers of the services that you use."
+msgstr ""
+
+#: ../../overview.rst:25
+# e82aeaefa2ce4fbe9bb6bbb40e80eb7d
+msgid "Which operating systems and devices support BWallet?"
+msgstr ""
+
+#: ../../overview.rst:27
+# dc206a0639a940eeb5b6f253501a058e
+msgid "There is full support in Windows, OS X and Linux.  Support for using your BWallet with Android devices which have USB On-The-Go (aka USB Host) support is planned in a future release."
+msgstr ""
+
+#: ../../overview.rst:30
+# 24026b5ba34a43c0ae17fa7fe3670a16
+msgid "What kind of hardware specs does the BWallet have?"
+msgstr ""
+
+#: ../../overview.rst:35
+# d7255dfce1e34fb0bbe9cc91db6b94a4
+msgid "**CPU**"
+msgstr ""
+
+#: ../../overview.rst:35
+# f6eaed816f294fd49eb00a8fc90bf20d
+msgid "BWallet is using a 120 MHz embedded ARM processor (Cortex M3 to be precise) with a custom developed system."
+msgstr ""
+
+#: ../../overview.rst:38
+# 30cd3ded79064a0e9174aff37e69c2c2
+msgid "**Screen**"
+msgstr ""
+
+#: ../../overview.rst:38
+# 0a6b9e59c1b345d189700464600b552f
+msgid "Bright OLED - 128x64 pixels.  Enough to hold six lines of text.  Can display all the details you need to verify a transaction in a single screenfull."
+msgstr ""
+
+#: ../../overview.rst:41
+# dbea58e9a73341919dd595d02d30548d
+msgid "**Case**"
+msgstr ""
+
+#: ../../overview.rst:41
+# 7930a15db4304b8abcf0712b49250b45
+msgid "Both BWallet Classic and BWallet Metallic will have a similar case with dimensions of approx. 60 x 30 x 6 mm. The Classic edition is made of a reinforced plastic providing great durability. The Metallic BWallet is made of a polished CNC milled aluminum."
+msgstr ""
+
+#: ../../overview.rst:44
+# a4666886d6754810ae24f07e5387bc98
+msgid "**Safety and certifications**"
+msgstr ""
+
+#: ../../overview.rst:44
+# 2afa824e5c164925a85b9f6b808b02e8
+msgid "The BWallet is CE and RoHS certified, so it meets all quality, reliability and environmental standards.  Its fine to take your BWallet with you on the airplane.  Like all modern electronics, the X-Rays won't hurt it."
+msgstr ""
+
+#: ../../overview.rst:47
+# 6c518b86eb5447c6904ad71feb71e545
+msgid "**Operating temperature**"
+msgstr ""
+
+#: ../../overview.rst:47
+# 767705860e3a42df9249eedd764745be
+msgid "-20°C to +60°C (-4°F - +140°F)"
+msgstr ""
+
+#: ../../overview.rst:50
+# 382ff48218404b76ace87cbcb1565517
+msgid "What if I lose my BWallet?"
+msgstr ""
+
+#: ../../overview.rst:52
+# 0bb067c6a48d45e389af6f2efae34811
+msgid "BWallet comes with excellent support for paper wallets.  When you set up your BWallet for the first time you will be told a list of secret words to write down.  Once you have written down this list, you can recover your Bitcoins at any time using a replacement BWallet."
+msgstr ""
+
+#: ../../overview.rst:55
+# 54ce0c03c4eb443aad9f8d3686dd11fa
+msgid "Which wallets are compatible with BWallet?"
+msgstr ""
+
+#: ../../overview.rst:57
+# 3cb8b68cede6409ab5a08e0a5085cd7f
+msgid "`MyBWallet <http://www.mytrezor.com>`_ - full support"
+msgstr ""
+
+#: ../../overview.rst:58
+# fa2a6da5d1e849d58a8a53e47c212980
+msgid "`MyBWallet Lite (Android) <https://play.google.com/store/apps/details?id=com.satoshilabs.btcreceive>`_ - allows to import xpub + watch only mode"
+msgstr ""
+

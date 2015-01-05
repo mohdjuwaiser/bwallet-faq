@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2014, Bidixing
+# This file is distributed under the same license as the BWallet Frequently Asked Questions package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: BWallet Frequently Asked Questions 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-25 20:26-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../index.rst:2
+# 113f799e1061468ca7a989c51557edda
+msgid "BWallet Frequently Asked Questions"
+msgstr ""
+
+#: ../../index.rst:5
+# 09a7b1bbd8304c9f9277d7c6d325b5ba
+msgid "Contents"
+msgstr ""
+
+#: ../../index.rst:16
+# 7d84bb97b07d46b1bd0e23a9089508be
+msgid "License"
+msgstr ""
+
+#: ../../index.rst:18
+# dcd7adba9c3e4a73b653a29d3ea7e6d5
+msgid "The contents of this documentation are licensed under Creative Commons `CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/>`_ license."
+msgstr ""
+
+#: ../../index.rst:21
+# dfcd8e26cf23490bb558b916d36a6b19
+msgid "Contributing"
+msgstr ""
+
+#: ../../index.rst:23
+# 765d87862cce47f2824c878d23e21cdd
+msgid "The project is hosted `on GitHub <https://github.com/satoshilabs/docs>`_ and pull requests are welcome!"
+msgstr ""
+

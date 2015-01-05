@@ -1,0 +1,164 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: BWallet Frequently Asked Questions 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-25 01:38-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../differences.rst:2
+msgid "How is BWallet different from ..."
+msgstr ""
+
+#: ../../differences.rst:6
+msgid "an ordinary Web Wallet?"
+msgstr ""
+
+#: ../../differences.rst:8
+msgid ""
+"When you store your Bitcoins in a traditional web wallet you put your "
+"Bitcoins at risk of being stolen, lost, or confiscated.  Here is a list of "
+"ways people have lost their Bitcoins through use of a traditional web "
+"wallet:"
+msgstr ""
+
+#: ../../differences.rst:10
+msgid "User's computer is hacked and web wallet password is stolen"
+msgstr ""
+
+#: ../../differences.rst:12
+msgid "Web wallet server gets hacked and bitcoins are stolen"
+msgstr ""
+
+#: ../../differences.rst:14
+msgid "Web wallet company goes bankrupt"
+msgstr ""
+
+#: ../../differences.rst:16
+msgid "FBI or other enforcement agency confiscates coins"
+msgstr ""
+
+#: ../../differences.rst:18
+msgid "Web wallet provider points to ToS violation and takes coins"
+msgstr ""
+
+#: ../../differences.rst:20
+msgid "Owners of web wallet company run away with coins"
+msgstr ""
+
+#: ../../differences.rst:22
+msgid "Bug in web wallet software leads to loss of coins"
+msgstr ""
+
+#: ../../differences.rst:24
+msgid ""
+"Your computer or cell phone is stolen while you are logged in and thieves "
+"then steal your coins"
+msgstr ""
+
+#: ../../differences.rst:26
+msgid ""
+"If you keep your Bitcoins in a BWallet, none of these things can happen."
+msgstr ""
+
+#: ../../differences.rst:29
+msgid "a desktop Bitcoin client?"
+msgstr ""
+
+#: ../../differences.rst:31
+msgid ""
+"If you keep your Bitcoins in your computer, when your computer is hacked or "
+"stolen your Bitcoins can be stolen."
+msgstr ""
+
+#: ../../differences.rst:34
+msgid "your mobile phone?"
+msgstr ""
+
+#: ../../differences.rst:36
+msgid ""
+"There are a number of programs that will allow you to send bitcoins from "
+"your mobile phones.  Some are simply mobile interfaces to web wallets, and "
+"suffer from the same flaws.  Some are the same as desktop clients, and can "
+"suffer from malware or theft."
+msgstr ""
+
+#: ../../differences.rst:39
+msgid "a USB flash drive?"
+msgstr ""
+
+#: ../../differences.rst:41
+msgid ""
+"A USB flash drive is just storage for private keys. It means that when you "
+"want to make a transaction, you must attach your drive to the computer and "
+"let your bitcoin software read the keys from the device. At this point your "
+"private keys are accessible to viruses and malware, just as to any other "
+"software on your desktop computer."
+msgstr ""
+
+#: ../../differences.rst:43
+msgid ""
+"On the contrary, BWallet is a single-purpose computer, which stores your "
+"private keys and actively signs transactions without sending your private "
+"keys to the computer. When you want to make a bitcoin transaction, your "
+"bitcoin software just sends a transaction template to the BWallet device and"
+" asks for a digital signature. BWallet shows the requested amount and target"
+" address on its display. You will then confirm the transaction by pressing "
+"the hardware button. BWallet will sign transaction internally and send the "
+"digital signature back to the computer, without leaking your private keys. "
+"Thanks to this, you can use BWallet even on a vulnerable or hacked computer."
+msgstr ""
+
+#: ../../differences.rst:46
+msgid "an encrypted wallet?"
+msgstr ""
+
+#: ../../differences.rst:48
+msgid ""
+"Even using a strong password doesn't prevent viruses to silently sit on your"
+" computer and wait until you want to transfer coins out of your wallet. This"
+" is a vulnerable point, because a virus has access to the wallet file and "
+"can read your passphrase from your keyboard."
+msgstr ""
+
+#: ../../differences.rst:50
+msgid ""
+"On the contrary, BWallet never sends private keys to the computer, because "
+"when you want to send some coins out of your wallet, BWallet asks bitcoin "
+"software for payment details, signs the transaction internally and then "
+"sends back just a digital signature of the transaction. There's no point "
+"where malware on your computer could access the private keys or send away "
+"your coins without your permission."
+msgstr ""
+
+#: ../../differences.rst:53
+msgid "Yubikey?"
+msgstr ""
+
+#: ../../differences.rst:54
+msgid ""
+"There is a significant difference between the two. The Yubikey is a device "
+"which helps the service to verify that it is actually you who is signing the"
+" transaction. However, it does not protect you against signing a different "
+"transaction than you intend to."
+msgstr ""
+
+#: ../../differences.rst:57
+msgid "a paper backup of my keys?"
+msgstr ""
+
+#: ../../differences.rst:59
+msgid ""
+"A paper backup is a quite safe method to protect bitcoins, but you still "
+"need to load private keys from paper using a trusted computer to send your "
+"coins to somebody else."
+msgstr ""
+
+#: ../../differences.rst:62
+msgid "Comparison Table"
+msgstr ""
